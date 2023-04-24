@@ -3,3 +3,8 @@ Flask_login==0.6.2
 Flask-WTF==1.1.1
 aiosqlite==0.18.0
 python-telegram-bot==20.2
+Flask-SQLAlchemy==3.0.3
+SQLAlchemy==2.0.4
+SQLAlchemy-serializer==1.4.1
+WTForms==3.0.1
+Werkzeug==2.2.2
