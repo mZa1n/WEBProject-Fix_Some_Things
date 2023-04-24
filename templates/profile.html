@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Профиль</h1>
+    <h5 style="padding-top: 20px">Ваш никнейм: {{ current_user.login }}</h5>
+    <a href="tasks" class="btn btn-secondary">Добавить задачу</a>
+{% endblock %}
